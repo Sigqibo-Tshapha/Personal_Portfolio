@@ -117,7 +117,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items:center;
-    background: url('Images/R8/full-image.png');
+    background: blue;
     background-repeat: no-repeat;
     background-size: 29.5%;
     background-position-x: right;
