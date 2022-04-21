@@ -117,7 +117,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items:center;
-    background: blue;
+    background: #fff;
     background-repeat: no-repeat;
     background-size: 29.5%;
     background-position-x: right;
