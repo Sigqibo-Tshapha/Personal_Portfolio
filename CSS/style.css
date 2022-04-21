@@ -117,7 +117,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items:center;
-    background: url('/Images/R8/full-image.png');
+    background: url('Images/R8/full-image.png');
     background-repeat: no-repeat;
     background-size: 29.5%;
     background-position-x: right;
@@ -188,7 +188,9 @@ section{
 }
 .menu .box-container .box img{
     height:20rem;
+    width: 100%;
 }
+
 .menu .box-container .box h3{
     color:#fff;
     font-size: 2rem;
@@ -214,7 +216,9 @@ section{
     color: var(--black);
 }
     
-
+.review{
+    background: var(--black);
+}
 .review p{
     color: var(--main-color);
     margin-bottom: 2rem;
@@ -243,6 +247,7 @@ section{
     object-fit: cover;
     margin-top: -3rem;
 }
+
 .review .box-container .box h3{
     padding: 1rem 0;
     font-size: 2rem;
@@ -282,7 +287,7 @@ section{
     width: 60%;
 }
 .sql{
-    width: 75%;
+    width: 80%;
 }
 .asp{
     width: 80%;
@@ -301,6 +306,9 @@ section{
 .education .box-container .box img{
     height:20rem;
     width: 100%;
+}
+.education .box-container .box .edu_info{
+    height:15vh;
 }
 .education .box-container .box h3{
     color:#fff;
@@ -328,7 +336,7 @@ section{
 }
 .education .box-container .box img:hover{
     
-    transform: scale(2);
+    transform: scale(2.2);
 }
 
 .contact .row{
