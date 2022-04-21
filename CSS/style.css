@@ -117,7 +117,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items:center;
-    background: url('Images/R8/full-image.png');
+    background: url('/Images/R8/full-image.png');
     background-repeat: no-repeat;
     background-size: 29.5%;
     background-position-x: right;
@@ -330,14 +330,6 @@ section{
     
     transform: scale(2);
 }
-
-
-
-
-
-
-
-
 
 .contact .row{
     display: flex;
