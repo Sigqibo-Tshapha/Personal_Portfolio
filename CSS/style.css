@@ -144,13 +144,11 @@ section{
     text-transform: none;
 }
 .about{
-    background: transparent;
     border-bottom: var(--border);
     padding-top: 1rem;
 }
 .about .row{
     display: flex;
-    background: var(--black);
     flex-wrap: wrap;
     height: auto;
 }
@@ -222,7 +220,7 @@ section{
 }
     
 .review{
-    background:transparent;
+    
     border-bottom: var(--border);
 }
 .review p{
