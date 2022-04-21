@@ -145,7 +145,7 @@ section{
 .about{
     background: url('Images/R8/full-image.png');
     /*background: var(--black);*/
-    padding-top: .1rem;
+    padding-top: 1rem;
 }
 .about .row{
     display: flex;
