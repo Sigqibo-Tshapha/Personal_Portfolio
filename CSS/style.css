@@ -122,6 +122,7 @@ section{
     background-size: 29.5%;
     background-position-x: right;
     background-position-y: 20vh;
+    border-bottom: var(--border);
 }
 .home .content{
     max-width: 60rem;
@@ -143,8 +144,8 @@ section{
     text-transform: none;
 }
 .about{
-    background: url('Images/R8/full-image.png');
-    /*background: var(--black);*/
+    background: transparent;
+    border-bottom: var(--border);
     padding-top: 1rem;
 }
 .about .row{
@@ -176,6 +177,9 @@ section{
 .about .row .continueBtn{
     display: flex;
     justify-content: center;
+}
+.menu{
+    border-bottom: var(--border);
 }
 .menu .box-container{
     display: grid;
@@ -218,7 +222,8 @@ section{
 }
     
 .review{
-    background: var(--black);
+    background:transparent;
+    border-bottom: var(--border);
 }
 .review p{
     color: var(--main-color);
@@ -293,7 +298,9 @@ section{
 .asp{
     width: 80%;
 }
-
+.education{
+    border-bottom: var(--border);
+}
 .education .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
@@ -341,7 +348,7 @@ section{
 }
 
 .contact{
-    border-top: var(--border);
+    border-bottom: var(--border);
     padding-top: .1rem;
 }
 .contact .row{
@@ -434,51 +441,6 @@ section{
 .footer .credits span{
     color: var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
